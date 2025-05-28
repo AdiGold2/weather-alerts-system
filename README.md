@@ -64,7 +64,7 @@ alerts that are evaluated periodically.
 
 ```bash
 cd weather-alert
-# in src/main/resources/application.properties - Add your Tomorrow.io API key to application.properties
+# Edit weather-alert/src/main/resources/application.properties and replace YOUR_API_KEY_HERE with your Tomorrow.io API key.
 mvn clean install
 mvn spring-boot:run
 ```
