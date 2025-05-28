@@ -1,0 +1,15 @@
+# Spring Boot
+weather-alert/target/
+weather-alert/*.iml
+*.log
+*.class
+weather-alert/src/main/resources/application.properties
+
+# React
+weather-alert-frontend/node_modules/
+weather-alert-frontend/.env
+
+# OS
+.DS_Store
+.env
+
