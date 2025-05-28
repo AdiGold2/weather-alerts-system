@@ -73,5 +73,22 @@ mvn spring-boot:run
 ```bash
 cd weather-alert-frontend
 npm install
+```
+
+### 🗃️ Accessing the H2 Database
+
+You can access the built-in H2 console here: [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+
+Use the following credentials:
+
+- **JDBC URL**: `jdbc:h2:mem:testdb`
+- **Username**: `sa`
+- **Password**: *(leave blank)*
+
+Then run:
+
+```sql
+SELECT * FROM WEATHER_ALERT;
+```
 npm start
 ```
