@@ -73,6 +73,7 @@ mvn spring-boot:run
 ```bash
 cd weather-alert-frontend
 npm install
+npm start
 ```
 
 ### 🗃️ Accessing the H2 Database
@@ -89,6 +90,4 @@ Then run:
 
 ```sql
 SELECT * FROM WEATHER_ALERT;
-```
-npm start
 ```
